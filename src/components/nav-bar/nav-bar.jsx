@@ -3,7 +3,7 @@ import {useState} from "react";
 
 export const Navbar = () => {
     const [activeTab, setActiveTab] = useState('monday');
-    const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'Summary'];
+    const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Summary'];
 
     const getNavLinkStyle = (day) => ({
         padding: '10px 15px',
